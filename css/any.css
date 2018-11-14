@@ -89,11 +89,13 @@ time, mark, audio, video, .row, .col-md-4, .col-md-3, .col-md-1, .col-md-6, .col
     position: relative;
     bottom:0;
     font-family: Open Sans;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.29px;
 }
-
+::placeholder{
+    color: #F1F1F1;
+}
 .about{
     list-style-type: none;
     margin: 0;
@@ -103,6 +105,8 @@ time, mark, audio, video, .row, .col-md-4, .col-md-3, .col-md-1, .col-md-6, .col
 .about>a>li{
     float:left;
     margin: 0 10px 0 10px;
+    color:#676767;
+    font-size:14px;
 }
 .signUp{
     border-radius: 0 40% 40% 0;
@@ -173,7 +177,7 @@ a:hover{
 .flex-container {
     display: flex;
     margin-top:50px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
   }
   
