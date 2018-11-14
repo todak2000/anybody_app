@@ -178,6 +178,7 @@ a:hover{
     display: flex;
     margin-top:50px;
     justify-content: start;
+    margin-left:100px;
     align-items: center;
   }
   
